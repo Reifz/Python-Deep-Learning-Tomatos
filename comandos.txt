@@ -1,0 +1,13 @@
+# Comandos para rodar em outro computador
+
+# 1. Instalar as bibliotecas necessarias
+pip install tensorflow numpy pillow scikit-learn
+
+# 2. Rodar o treinamento atualizado (Usa o dataset maior e corrige os vicios)
+python trainV2V.py
+
+# 3. Rodar o script de teste/predicao
+python predict.py
+
+# Observacao: Certifique-se de que as pastas 'dataset' e 'dataset2' 
+# estao no mesmo local que os scripts.
