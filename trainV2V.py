@@ -158,7 +158,7 @@ history2 = model.fit(
 # =========================
 # SALVAR MODELO FINAL
 # =========================
-model.save("tomato_model_v2_d3.h5")
+model.save("tomato_model_v2.h5")
 
 # =========================
 # SALVAR CLASSES
